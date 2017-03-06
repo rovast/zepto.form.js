@@ -9,24 +9,24 @@
 Relace of jquery.form.js, fix some bugs base on `http://blog.csdn.net/laotoumo/article/details/51205109`。Weclome U to complete the English Docment。
 
 ## usage & demo
-``` javascript
-    $(obj).ajaxSubmit({
-        dataType:  'json',
-        success: function(data) {
-            // handle the sucess callback
-            console.log('request success');
-        },
-        error:function(xhr){
-            // handle the error callback
-            console.log('request error');
-        },
-        beforeSend:function(){
-            // handle the beforeSend
-            console.log('beforeSend');
-        },
-        complete:function(){
-            // handle the complete
-            console.log('request complete');
-        }
-    });
+```javascript
+$(obj).ajaxSubmit({
+    dataType:  'json',
+    success: function(data) {
+        // handle the sucess callback
+        console.log('request success');
+    },
+    error:function(xhr){
+        // handle the error callback
+        console.log('request error');
+    },
+    beforeSend:function(){
+        // handle the beforeSend
+        console.log('beforeSend');
+    },
+    complete:function(){
+        // handle the complete
+        console.log('request complete');
+    }
+});
 ```
