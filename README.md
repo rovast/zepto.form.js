@@ -9,7 +9,7 @@
 Relace of jquery.form.js, fix some bugs base on `http://blog.csdn.net/laotoumo/article/details/51205109`。Weclome U to complete the English Docment。
 
 ## usage & demo
-`
+``` javascript
     $(obj).ajaxSubmit({
         dataType:  'json',
         success: function(data) {
@@ -29,4 +29,4 @@ Relace of jquery.form.js, fix some bugs base on `http://blog.csdn.net/laotoumo/a
             console.log('request complete');
         }
     });
-`
+```
